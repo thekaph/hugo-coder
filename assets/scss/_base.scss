@@ -201,3 +201,32 @@ img {
 .fas {
   font-weight: 900;
 }
+
+.portfolio .portfolio-inner {
+  display: flex;
+  align-items: stretch;
+  @media only screen and (max-width : 768px) {
+    display: block;
+  }
+
+}
+.portfolio .portfolio-inner .portfolio-image {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+  width: 45%;
+  @media only screen and (max-width : 768px) {
+    width: 100%;
+  }
+}
+.portfolio .portfolio-inner .portfolio-content {
+  flex: 1;
+}
+
+
+
+
+
+
+
+
